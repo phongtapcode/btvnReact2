@@ -1,0 +1,59 @@
+.data{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 3px;
+    border: 1px solid black;
+    border-radius: 13px;
+    &:hover{
+        background-color: rgb(202, 195, 195);
+    }
+    &__avatar{
+        img{
+            height: 80px;
+        }
+    }
+    &__icon{
+        padding: 10px 40px;
+        i{
+            line-height: 55px;
+            margin-left: 23px;
+            cursor: pointer;
+        }
+    }
+    &__id{
+        padding: 20px 20px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    &__email{
+        padding: 20px 20px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    &__city{
+        padding: 20px 20px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+}
+
+.title{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 3px;
+    border: 1px solid black;
+    background-color: aqua;
+    line-height: 30px;
+    &__icon{
+        margin-right: 35px;
+    }
+    &__id{
+        margin-left: 15px;
+    }
+}

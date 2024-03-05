@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+.form{
+    display: flex;
+    margin: 10px auto;
+    width: 80%;
+    &__input{
+        display: inline-block;
+        margin-left: 10px;
+        input{
+            margin-left: 6px;
+            width: 190px;
+            height: 30px;
+            border-radius: 10px;
+        }
+    }
+}
+
+h1{
+    text-align: center;
+}
